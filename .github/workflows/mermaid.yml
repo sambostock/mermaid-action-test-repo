@@ -1,0 +1,12 @@
+name: Mermaid
+
+on: push
+
+jobs:
+  mermaid:
+    name: Mermaid
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check if this works at all
+        run: echo Hi
