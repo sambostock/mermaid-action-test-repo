@@ -1,0 +1,9 @@
+stateDiagram-v2
+[*] --> Branch
+Branch --> Commit
+Commit --> Check
+Check --> Recompile
+Recompile --> Commit diagram
+Commit diagram --> Branch
+Merge --> [*]
+
